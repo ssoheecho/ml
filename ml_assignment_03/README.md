@@ -34,6 +34,6 @@ data['primary_medium'] = [primary_mediums[item] for item in data['primary_medium
 ### KMeans
 ![silhouette analysis](./silhouette_analysis.png)
 
-I chose the number of clusters with groupings that made the most sense to me. In this case that happened to be 25 clusters.
+I chose the number of clusters with groupings that made the most sense to me. In this case, that happened to be 25 clusters with an average silhouette score of 0.5155551822469865.
 
 A visualization of the clusters can be referenced in the notebook.
