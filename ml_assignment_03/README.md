@@ -32,7 +32,7 @@ data['primary_medium'] = [primary_mediums[item] for item in data['primary_medium
 ```
 
 #### KMeans
-![silhouette analysis]('./silhouette analysis.png')
+![silhouette analysis](./silhouette analysis.png)
 
 I chose the number of clusters with groupings that made the most sense to me. In this case that happened to be 25 clusters.
 
