@@ -2,7 +2,7 @@
 
 ## ml assignment 3: clustering image meta-data
 
-#### data
+### data
 
 After testing out different combinations of provided metadata, I decided to cluster the images based on these five:
 * art_movement
@@ -31,8 +31,8 @@ for primary_medium in data['primary_medium'].values:
 data['primary_medium'] = [primary_mediums[item] for item in data['primary_medium']]
 ```
 
-#### KMeans
-![silhouette analysis](./silhouette analysis.png)
+### KMeans
+![silhouette analysis](./silhouette_analysis.png)
 
 I chose the number of clusters with groupings that made the most sense to me. In this case that happened to be 25 clusters.
 
